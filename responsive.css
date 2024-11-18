@@ -1,0 +1,549 @@
+
+/* <<<------NAVBAR---------->>> */
+@media (max-width: 900px) {
+    .btn {
+        display: none;
+    }
+
+    #navbarMenu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background: rgba(255, 255, 255, 0.9);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px;
+        gap: 10px;
+    }
+
+    #navbarMenu.active {
+        display: flex;
+    }
+
+    .icon {
+        display: block;
+    }
+}
+
+/* Responsive Styles */
+/* Basic styles for the navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(67, 107, 82, 0.6);
+}
+
+.navbar img {
+    height: 70px;
+    margin-right: 20px;
+}
+
+.img {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 74px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: small;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #232323;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn {
+    font-size: .85rem;
+    color: black;
+    background-color: #589e4b !important;
+    font-family: Rubik, sans-serif;
+    border-radius: 5rem;
+    border: none;
+    font-weight: 500;
+    padding: .75rem 1.8rem;
+    cursor: pointer;
+    box-shadow: 0 0 .8rem -.07rem transparent;
+}
+
+.icon i {
+    font-size: 1.5vw;
+    font-weight: 800;
+    color: #000;
+    display: none;
+    cursor: pointer;
+}
+
+/* Hover effects */
+.navbar .btn:hover {
+    background-color: #C2FFC7;
+}
+
+
+
+
+/* <<<<<--------NAVBAR END-------->>>> */
+
+
+/* <<<<<--------CONTANT-------->>>> */
+
+@media (max-width: 768px) {
+  
+    /* Stack the content vertically on small screens */
+    .contant {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    /* Adjust the text area width and alignment */
+    .text {
+      width: 90%;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .text h1 {
+      font-size: 2.2em; /* Decrease font size for mobile */
+      line-height: 45px;
+    }
+  
+    /* Adjust video size */
+    .vid {
+      width: 90%;
+      height: auto;
+      margin-top: 20px;
+    }
+  
+    .vid video {
+      width: 100%;
+      height: auto; /* Adjust video to be responsive */
+      margin-left: 0;
+    }
+  
+    /* Button should be centered and sized appropriately */
+    .contant button {
+      margin-right: 0;
+      width: 70%;
+      font-size: 1rem;
+    }
+}
+
+ @media (max-width: 480px) {
+    /* Further adjust for very small screens (e.g., phones) */
+    .text h1 {
+      font-size: 1.8em; /* Reduce font size more for tiny screens */
+      line-height: 40px;
+    }
+  
+    .contant button {
+      width: 80%;
+      font-size: 1.2rem;
+    }
+}
+
+  /* <<<<<--------CONTANT END-------->>>> */
+
+
+    /* <<<<<--------CONTACT2-------->>>> */
+
+
+@media (max-width: 1024px) {
+    .contact2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text2, .card {
+        width: 80%; /* Reduce width to fit better */
+    }
+
+    .text2 h1 {
+        font-size: 1.8rem;
+    }
+
+    .text2 p {
+        font-size: 0.9rem;
+    }
+
+    .text2 button {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .text2 h1 {
+        font-size: 1.6rem;
+        line-height: 1.3;
+    }
+
+    .text2 p {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+
+    .text2 button {
+        padding: 0.6rem 1.5rem;
+    }
+
+    .card {
+        width: 90%; /* Full-width for smaller screens */
+        margin: 10px 0;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text3 h3, .text3 h4 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .text2 h1 {
+        font-size: 1.4rem;
+    }
+
+    .text2 p {
+        font-size: 0.85rem;
+    }
+
+    .text2 button {
+        font-size: 0.9rem;
+        padding: 0.5rem 1.2rem;
+    }
+
+    .text3 h3, .text3 h4 {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+  /* <<<<<--------CONTACT2 END-------->>>> */
+
+
+    /* <<<<<--------education-------->>>> */
+
+  @media only screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .image img {
+        max-width: 90%;
+        margin-top: 10px;
+    }
+
+    .para h1 {
+        font-size: 24px;
+        margin-top: 15px;
+    }
+
+    .para p {
+        font-size: 16px;
+        text-align: justify;
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .education {
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    .image img {
+        max-width: 100%;
+    }
+
+    .para h1 {
+        font-size: 22px;
+    }
+
+    .para p {
+        font-size: 15px;
+        text-align: left;
+    }
+}
+
+    /* <<<<<--------education end-------->>>> */
+
+
+
+
+/* enviroment */
+@media only screen and (max-width: 768px) {
+    .enviroment h1 {
+        font-size: 36px; /* Adjust font size for smaller screens */
+    }
+
+    .poster img {
+        max-width: 90%; /* Allow image to take up more space on smaller screens */
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .enviroment {
+        padding: 20px 0;
+    }
+
+    .enviroment h1 {
+        font-size: 28px;
+    }
+
+    .poster img {
+        max-width: 100%; /* Full width on small screens */
+    }
+}
+
+/* end .enviroment */
+
+
+/* slidersss */
+
+
+/* Responsive Styles */
+
+/* Responsive Styles */
+
+/* Responsive Styles */
+@media only screen and (max-width: 1200px) {
+    .card1 {
+        flex: 0 0 25%; /* Show 4 cards */
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .card1 {
+        flex: 0 0 33.33%; /* Show 3 cards */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .card1 {
+        flex: 0 0 50%; /* Show 2 cards */
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .card1 {
+        flex: 0 0 100%; /* Show 1 card */
+    }
+
+    .nav-button {
+        font-size: 24px;
+        padding: 12px;
+    }
+}
+/* end slidersssss */
+
+/* contant4 */
+  
+@media (max-width: 1024px) {
+    .maindiv {
+        width: 90%;
+        height: 80%;
+    }
+    .scards {
+        gap: 15px;
+    }
+    .cardss {
+        width: 200px;
+        height: 270px;
+    }
+    .cardss h1 {
+        font-size: 1rem;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contant4 {
+        height: auto;
+        padding: 20px 0;
+    }
+    .maindiv {
+        width: 95%;
+        height: auto;
+    }
+    .scards {
+        flex-direction: column; /* Stack cards vertically on small screens */
+        gap: 20px;
+    }
+    .cardss {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .cardss img {
+        width: 120px;
+    }
+    .cardss h1 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .cardss {
+        width: 90%;
+        max-width: 250px;
+    }
+    .cardss h1 {
+        font-size: 0.9rem;
+    }
+    .cardss img {
+        width: 100px;
+    }
+}
+
+/* end contant4k */
+
+ /* <<<<<--------CONTANT5-------->>>> */
+  
+ @media (max-width: 1024px) {
+    .text6 h1 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    .text6 span {
+        font-size: 30px;
+    }
+
+    .text6 p {
+        width: 80%;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contant5 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .text6, .img6 {
+        width: 90%; /* Full width on small screens */
+        height: auto;
+    }
+
+    .text6 h1 {
+        font-size: 26px;
+        padding-top: 20px;
+    }
+
+    .text6 span {
+        font-size: 28px;
+    }
+
+    .text6 p {
+        width: 90%;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .img6 img {
+        width: 80%;
+        max-width: 100%;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text6 h1 {
+        font-size: 24px;
+    }
+
+    .text6 span {
+        font-size: 24px;
+    }
+
+    .text6 p {
+        font-size: 14px;
+        line-height: 1.4;
+        padding: 10px;
+    }
+
+    .img6 img {
+        width: 100%;
+        padding-top: 15px;
+    }
+}
+ /* <<<<<--------CONTANT5 END-------->>>> */
+
+
+ /* footerrrr */
+
+ 
+  
+  /* <<<<<--------FOOTER-------->>>> */
+
+
+/* Media query for screens smaller than 768px (tablets) */
+@media (max-width: 768px) {
+    .textconteiner {
+        flex-direction: column;
+        align-items: center; /* Center-align items on smaller screens */
+        padding: 20px;
+    }
+
+    ul h1 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    ul li {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+}
+
+/* Media query for screens smaller than 480px (mobile) */
+@media (max-width: 480px) {
+    .textconteiner {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    ul {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    ul h1 {
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    ul li {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+}
+
+
+  /* <<<<<--------FOOTER END-------->>>> */
