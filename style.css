@@ -558,3 +558,38 @@ ul li {
     margin-left: 10px;
     color: rgb(250, 238, 238);
 }
+
+
+
+.whatsapp_main img {
+    width: 70px;
+    z-index: 1000;
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+    animation: scaleAnimation 1.5s infinite;
+    /* Apply the animation */
+}
+
+@keyframes scaleAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+        /* Scale to 110% */
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.whatsapp_main img:hover {
+    transform: scale(1.4);
+    /* Scale the image to 110% of its size on hover */
+    transition: transform 0.5s;
+    /* Smooth transition for the scaling effect */
+}
