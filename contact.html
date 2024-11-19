@@ -80,12 +80,20 @@
                 flex-direction: column; /* Stack items vertically */
             }
         
+            .map1{
+                 margin-bottom: 20px;
+            }
+
             .map1, .map2 {
                 flex: 1 1 100%; /* Ensure full width for smaller devices */
             }
         
             .map2 iframe {
                 height: 300px; /* Adjust height for smaller devices */
+            }
+
+            #email {
+                font-size: 18px;
             }
         }
         
@@ -137,8 +145,12 @@
                 <h2>"Your kindness can save lives."</h2>
                 <h3>Contact Us</h3>
                 <div class="contact-info">
+                    <i class="fas fa-user icon"></i>
+                    <h1>Vishwajeet Mishra</h1>
+                </div>
+                <div class="contact-info">
                     <i class="fa fa-envelope"></i>
-                    <h1>deepakmishra.vishu@gmail.com</h1>
+                    <h1 id="email">deepakmishra.vishu@gmail.com</h1>
                 </div>
                 <div class="contact-info">
                     <i class="fa fa-phone"></i>
