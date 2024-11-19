@@ -144,14 +144,14 @@ body {
     animation: slideInRight 1.5s ease-out forwards; /* Apply video slide-in animation */
   }
 
-  @keyframes slideInRight {
+  /* @keyframes slideInRight {
     0% {
         transform: translateX(100%); /* Start from the right */
     }
     100% {
         transform: translateX(0); /* End at the normal position */
     }
-}
+} */
 
   
   .contant button {
